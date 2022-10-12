@@ -2,28 +2,29 @@
 <html lang="en">
 <head>
     <!--Document Information-->
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewpoint" content="width=device-width, initiatl-scale=1.0">
-    <meta charset = UTF-8>
     <title>Simple HTML Website</title>
-
-    <style>
-        body {background-color: whitesmoke}
-        body {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
-        body {color: black}
-        h1 {font-size: 24pt;}
-        h2 {font-size: 18pt;}
-        p {font-size: 12pt;}
-    </style>
+    <link href="css/main.css" rel="stylesheet">
 
 </head>
 
 <body>
     <!-- Document information -->
-    <h1>HTML tags</h1>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href = "index.html" >MAIN PAGE</a></li>
+            <li><a href = "notes.html" >NOTES</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1 class = "site-title">NOTES: HTML Tags</h1>
+    </header>
     <hr> <!-- The Line encapsulates the article for better appearance -->
-    <article>
-        <p>Some of these tags were used in <a href = "index.html">here</a>.</p>
-        
+    <article>        
         <h2>The List:</h2>
         <dl>
             <dt><b>Horizontal Line</b></dt>
